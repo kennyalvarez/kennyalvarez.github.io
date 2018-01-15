@@ -890,7 +890,7 @@ input, textarea {
 
 /*Google App-box styzz*/
 .flex-container {
-  justify-content: space-between;
+  justify-content: center;
   margin-left:0px;
   margin-right:0px;
 }

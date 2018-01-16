@@ -379,6 +379,71 @@ input, textarea {
   padding-bottom: 120px;
   color: #fff; }
 
+.about-lg-img {
+
+}
+.intro-hero-img {
+    background-attachment: scroll;
+    background-clip: content-box;
+    background-color: rgba(243, 246, 248, 0.94);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-repeat-x: ;
+    background-repeat-y: ;
+    background-size: auto;
+    border-bottom-color: #c5c5c5;
+    border-bottom-left-radius: 49.9%;
+    border-bottom-right-radius: 49.9%;
+    border-bottom-style: solid;
+    border-bottom-width: 3.99306px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: #c5c5c5;
+    border-left-style: solid;
+    border-left-width: 3.99306px;
+    border-right-color: #c5c5c5;
+    border-right-style: solid;
+    border-right-width: 3.99306px;
+    border-top-color: #c5c5c5;
+    border-top-left-radius: 49.9%;
+    border-top-right-radius: 49.9%;
+    border-top-style: solid;
+    border-top-width: 3.99306px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1.5px 3px 0px inset, rgba(0, 0, 0, 0.15) 0px 1.5px 3px 0px;
+    box-sizing: content-box;
+    color: rgba(0, 0, 0, 0.7);
+    display: center;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif, "Hiragino Kaku Gothic Pro", Meiryo, "Hiragino Sans GB W3", "Noto Naskh Arabic", "Droid Arabic Naskh", "Geeza Pro", "Simplified Arabic", "Noto Sans Thai", Thonburi, Dokchampa, "Droid Sans Thai", "Droid Sans Fallback", -apple-system, ".SFNSDisplay-Regular", "Heiti SC", "Microsoft Yahei", "Segoe UI";
+    font-size: 17px;
+    font-weight: 400;
+    height: 197.986px;
+    line-height: 20px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-left: 30.0139px;
+    margin-right: 30.0139px;
+    margin-top: 0px;
+    outline-color: rgba(0, 0, 0, 0.7);
+    outline-style: none;
+    outline-width: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: baseline;
+    width: 197.986px;
+    word-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+}
+
 .btn-play-video {
   display: -webkit-box;
   display: -webkit-flex;
@@ -484,7 +549,7 @@ input, textarea {
 
 .about-me-text .lead, .about-me-text h4 {
   font-size: 24px;
-  color: #000;
+  color: #333;
   line-height: 36px; }
 
 .about-me-text > h4 {
@@ -798,7 +863,7 @@ input, textarea {
 
 .testimonials {
   background: url(../../assets/img/testimonial-bg.jpg) no-repeat scroll 0 0;
-  background-size: cover; 
+  background-size: cover;
 }
 
 .quote-slides {
@@ -860,9 +925,14 @@ input, textarea {
   color: #777; }
 
 .services {
+  background: url(../../assets/img/sr02.png) no-repeat scroll 1 0;
+  opacity 1;
+  background-size: cover;
+  width:100%;
+  height:100%;
   position: relative;
-  z-index: 1; 
-  padding-bottom: 20px;
+  z-index: 1;
+  padding-bottom: 0px;
 }
 .service-block {
   background: #fff;
@@ -943,7 +1013,7 @@ input, textarea {
     overflow: hidden;
     -webkit-transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
     transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1)
-  }        
+  }
 .app-box:hover {
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08)
@@ -960,11 +1030,11 @@ input, textarea {
 .sr-icon img {
   max-height: 120px;
     margin-bottom: 20px;
-  width: auto; 
+  width: auto;
 }
 .sr-icon4 img {
   max-height: 100px;
-  width: auto; 
+  width: auto;
 }
 .img-so
 .img-soft {
@@ -995,7 +1065,7 @@ input, textarea {
   .service-block .block-title {
     margin-top: 30px;
     margin-bottom: 20px;
-} 
+}
 
 .work-process {
   background: #fafafa; }
@@ -1580,7 +1650,7 @@ input, textarea {
 
 .site-footer {
   padding-top: 90px;
-  padding-bottom: 90px; 
+  padding-bottom: 90px;
 
 .footer-site-name {
   font-size: 48px;
@@ -1596,7 +1666,7 @@ input, textarea {
   height: 100%;
   width: 100%;
   position: fixed;
-  z-index: 9999; 
+  z-index: 9999;
 }
 
 .appitem {

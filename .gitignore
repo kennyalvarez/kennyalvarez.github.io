@@ -1,3 +1,9 @@
 log.txt
+/.idea
 /samples-dir
 /clone-dir
+.idea/dictionaries/
+.idea/inspectionProfiles/
+.idea/kennyalvarez.github.io.iml
+.idea/modules.xml
+.idea/workspace.xml
